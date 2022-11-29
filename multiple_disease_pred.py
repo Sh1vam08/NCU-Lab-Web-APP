@@ -7,11 +7,11 @@ from streamlit_lottie import st_lottie
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/shiva/OneDrive/Desktop/Project ML/New folder/models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/shiva/OneDrive/Desktop/Project ML/New folder/models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/shiva/OneDrive/Desktop/Project ML/New folder/models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 
