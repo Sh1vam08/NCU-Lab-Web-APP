@@ -34,14 +34,14 @@ if (selected == 'Home Page'):
         with open(filepath, "r") as f:
             return json.load(f)
         
-    lottie_home = load_lottiefile("C:/Users/shiva/OneDrive/Desktop/Project ML/Animations/Welcome.json")
+    lottie_home = load_lottiefile("Welcome.json")
     st_lottie(lottie_home, key = 'diab', speed = 1 , reverse = False ,loop = True, quality = "high",)
     st.markdown("<h1 style='text-align: center; color: green;'>Get to know whether you are suffering from diabetes or heart diseases or Perkinson's Disease</h1>", unsafe_allow_html=True)
     def load_lottiefile(filepath = str):
         with open(filepath, "r") as f:
             return json.load(f)
         
-    lottie_dis = load_lottiefile("C:/Users/shiva/OneDrive/Desktop/Project ML/Animations/Dis.json")
+    lottie_dis = load_lottiefile("Dis.json")
     st_lottie(lottie_dis, key = 'dis', speed = 1 , reverse = False ,loop = True, quality = "high",)
     
 # Diabetes Prediction Page
@@ -54,7 +54,7 @@ if (selected == 'Diabetes Prediction'):
         with open(filepath, "r") as f:
             return json.load(f)
         
-    lottie_heart = load_lottiefile("C:/Users/shiva/OneDrive/Desktop/Project ML/Animations/Diab.json")
+    lottie_heart = load_lottiefile("Diab.json")
     st_lottie(lottie_heart, key = 'diab', speed = 1 , reverse = False ,loop = True, quality = "high",)
     
     
@@ -116,7 +116,7 @@ if (selected == 'Heart Disease Prediction'):
         with open(filepath, "r") as f:
             return json.load(f)
         
-    lottie_heart = load_lottiefile("C:/Users/shiva/OneDrive/Desktop/Project ML/Animations/Heart.json")
+    lottie_heart = load_lottiefile("Heart.json")
     st_lottie(lottie_heart, key = 'heart', speed = 1 , reverse = False ,loop = True, quality = "high",height = 400, width =300,)
     
     
@@ -192,7 +192,7 @@ if (selected == "Parkinsons Prediction"):
         with open(filepath, "r") as f:
             return json.load(f)
         
-    lottie_heart = load_lottiefile("C:/Users/shiva/OneDrive/Desktop/Project ML/Animations/Perkinson.json")
+    lottie_heart = load_lottiefile("Perkinson.json")
     st_lottie(lottie_heart, key = 'perkinson', speed = 1 , reverse = False ,loop = True, quality = "high", height = 400, width =300,)
     
     col1, col2, col3, col4, col5 = st.columns(5)  
